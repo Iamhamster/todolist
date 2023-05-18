@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    background-image: url(배경화면.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.text-area{
+    border:1px solid lightgray;
+}
+
+.task-tabs{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.task-tabs div{
+    padding: 1em;
+}
+
+#under-line{
+    height: 4px;
+    background-color: pink;
+    position: absolute;
+    width: 50.41px;
+    left:0;
+    top:52px;
+    padding:0px;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+.task-done{
+    text-decoration: line-through;
+}
+
+.task-tabs div{
+    cursor: pointer;
+}
